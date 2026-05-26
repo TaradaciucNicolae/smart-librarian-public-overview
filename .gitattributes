@@ -1,0 +1,16 @@
+# Exclude documentation and media from GitHub language statistics
+*.md linguist-detectable=false
+*.pdf linguist-detectable=false
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+*.gif linguist-detectable=false
+*.webp linguist-detectable=false
+*.mp4 linguist-detectable=false
+*.mov linguist-detectable=false
+assets/** linguist-detectable=false
+docs/** linguist-detectable=false
+
+# Count the overview metadata file as Python
+project_overview.py linguist-detectable=true
+project_overview.py linguist-language=Python
