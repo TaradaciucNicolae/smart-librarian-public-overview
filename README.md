@@ -3,7 +3,7 @@
 Public technical overview of **Smart Librarian**, an AI-powered book recommendation web application that combines RAG, semantic search, OpenAI tool calling, a local book catalog, voice input, audio narration, image generation, and a Streamlit interface.
 
 <p align="center">
-  <img width="850" alt="Smart Librarian generated audio transcript and generated cover" src="https://github.com/user-attachments/assets/632dd8af-ad3f-4a58-80f5-7b597e605fee" />
+  <img width="850" alt="Smart Librarian generated audio transcript and generated cover" src="./assets/screenshots/1.png" />
 </p>
 
 > The full source code is private due to intellectual property considerations. This repository documents the project’s functionality, architecture, technologies, screenshots, and implementation approach without exposing private source code, secrets, generated assets, or internal Git history.
@@ -26,19 +26,19 @@ The application can also be used to browse the catalog, search books by title, a
 
 The sidebar provides catalog import controls and catalog browsing, while the main page starts with an empty conversation state and starter-style interaction flow.
 
-<img width="1916" height="893" alt="Smart Librarian catalog import and empty main page" src="https://github.com/user-attachments/assets/47305bee-12d2-4d8a-9683-aa4a747c63ac" />
+<img width="1916" height="893" alt="Smart Librarian catalog import and empty main page" src="./assets/screenshots/2.png" />
 
 ### Simple Prompt
 
 The user can ask for a recommendation using natural language. The system retrieves relevant candidates, chooses a suitable book, and renders a structured response.
 
-<img width="1918" height="906" alt="Smart Librarian simple prompt recommendation flow" src="https://github.com/user-attachments/assets/a4286363-4dfb-4420-9a08-a396f45b249c" />
+<img width="1918" height="906" alt="Smart Librarian simple prompt recommendation flow" src="./assets/screenshots/3.png" />
 
 ### Generated Audio Transcript & Generated Cover
 
 For a selected recommendation, the app can generate audio narration and representative visuals, such as a book-cover concept or a scene inspired by the recommended book.
 
-<img width="1917" height="922" alt="Smart Librarian generated audio transcript and generated cover" src="https://github.com/user-attachments/assets/632dd8af-ad3f-4a58-80f5-7b597e605fee" />
+<img width="1917" height="922" alt="Smart Librarian generated audio transcript and generated cover" src="./assets/screenshots/4.png" />
 
 ---
 
